@@ -43,9 +43,36 @@
 //     return 0;  
 // }
 
+// #include <stdio.h>
+// int main(){
+//     int a,b;
+//     a=5;
+//     b=2;
+    // if(a==b){
+    //     printf("a is equal to b");
+        
+    // }
+    // else if(a>b){
+    //     printf("a is greater than b");
+    // }
+    // else{
+    //     printf("a is less than b");
+    // }
+    // printf("%s \n", 4==2 ? "true" : "false");
+//     return 0;
+// }
+
+//check if given character is digit or not
 #include <stdio.h>
 int main(){
-    int n= 5*2 - 2*3;
-    printf("value of n is %d", n);
+    char c;
+    printf("enter a character \n");
+    scanf("%c", &c);
+    if(c>='0' && c<='9'){
+        printf("given character is digit");
+    }
+    else{
+        printf("given character is not a digit");
+    }
     return 0;
 }
