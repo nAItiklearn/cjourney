@@ -63,16 +63,67 @@
 // }
 
 //check if given character is digit or not
+// #include <stdio.h>
+// int main(){
+//     char c;
+//     printf("enter a character \n");
+//     scanf("%c", &c);
+//     if(c>='0' && c<='9'){
+//         printf("given character is digit");
+//     }
+//     else{
+//         printf("given character is not a digit");
+//     }
+//     return 0;
+// }
+
+// #3rd sept
+
+// #include <stdio.h>
+// int main()
+// {
+//     int x=0 ;
+//     printf("enter a number \n");
+//     scanf("%d", &x);
+//     printf("%s", x%2==0? "even " : "odd" );
+//     return 0;
+
+// }
+// int main(){
+//     //true -1; false-0;
+//     int isSUNday=0;
+//     int isRainy=0;
+//     int isMONDAY=1;
+//     if(isSUNday&& isRainy){
+//         printf( "go dance in rain");
+//     }
+//     else if (isSUNday && !isRainy )
+//     {
+//         printf( "play valo at home");
+//     }
+//     else if (isMONDAY && isRainy){
+//         printf( "mom its raining no school today");
+//     }
+//     else if(isMONDAY && !isRainy)
+//     {
+//         printf("dont go anyway" );
+
+//     }
+//     return 0;
+
+// }
+
 #include <stdio.h>
 int main(){
-    char c;
-    printf("enter a character \n");
-    scanf("%c", &c);
-    if(c>='0' && c<='9'){
-        printf("given character is digit");
+    int x , y;
+    printf("enter a and y:");
+    scanf("%d %d", &x, &y);
+    if(x>y){
+        printf("y is smallest");
+
     }
     else{
-        printf("given character is not a digit");
+        printf("x is smaller than y");
     }
     return 0;
 }
