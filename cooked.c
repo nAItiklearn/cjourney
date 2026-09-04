@@ -113,17 +113,55 @@
 
 // }
 
+// #include <stdio.h>
+// int main(){
+//     int x , y;
+//     printf("enter a and y:");
+//     scanf("%d %d", &x, &y);
+//     if(x>y){
+//         printf("y is smallest");
+
+//     }
+//     else{
+//         printf("x is smaller than y");
+//     }
+//     return 0;
+// }
+
+// 4th sept 
+// #include <stdio.h>
+// int main(){
+//     int age;
+//     printf("enter your age\n");
+//     scanf("%d", &age);
+//     printf("you are %d years old \n", age);
+//     printf("%s", age>18? "you can vote" : "go study kiddo");
+
+//     return 0;
+// }
+// #include  <stdio.h>
+// int main(){
+//     int x;
+//     printf("enter no to check \n");
+//     scanf("%d", &x);
+//     if(x>0){
+//     printf("positive");
+//     }
+//     else if(x<0){
+//     printf("negative");
+//     }
+//     else
+//     {
+//     printf(" number is 0 like u");
+//     }
+//     return 0;
+// }
+
 #include <stdio.h>
 int main(){
-    int x , y;
-    printf("enter a and y:");
-    scanf("%d %d", &x, &y);
-    if(x>y){
-        printf("y is smallest");
-
-    }
-    else{
-        printf("x is smaller than y");
-    }
-    return 0;
+  int correctPin= 1234; int x;
+  printf("enter pin to enter \n");
+  scanf("%d", &x);
+  printf("%s \n",x==correctPin ? "Access granted" :"access denied" );
+  return 0;
 }
